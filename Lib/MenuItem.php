@@ -92,7 +92,7 @@ class MenuItem
      *
      * @return string
      */
-    protected function getHTMLIcon()
+    private function getHTMLIcon()
     {
         return empty($this->icon) ? '<i class="fa fa-fw" aria-hidden="true"></i> ' : '<i class="fa ' . $this->icon
             . ' fa-fw" aria-hidden="true"></i> ';
@@ -105,7 +105,7 @@ class MenuItem
      *
      * @return string
      */
-    protected function getMenuId($parent)
+    private function getMenuId($parent)
     {
         return empty($parent) ? 'menu-' . $this->title : $parent . $this->name;
     }
@@ -153,6 +153,7 @@ class MenuItem
         }
 
         $html .= '</ul>';
+
         return $html;
     }
 }

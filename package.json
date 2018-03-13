@@ -8,13 +8,19 @@
   },
   "author": "Francesc Pineda Segarra <francesc.pineda.segarra@gmail.com>",
   "contributors": [
-    {"name" : "Francesc Pineda Segarra", "email" : "francesc.pineda.segarra@gmail.com"}
+    {
+      "name": "Francesc Pineda Segarra",
+      "email": "francesc.pineda.segarra@gmail.com"
+    }
   ],
   "maintainers": [
-    {"name" : "Francesc Pineda Segarra", "email" : "francesc.pineda.segarra@gmail.com"}
+    {
+      "name": "Francesc Pineda Segarra",
+      "email": "francesc.pineda.segarra@gmail.com"
+    }
   ],
   "license": "LGPL-3.0",
   "dependencies": {
-    "startbootstrap-sb-admin": "^4.0.0-beta"
+    "startbootstrap-sb-admin": "^4.0.0"
   }
 }

@@ -25,8 +25,6 @@ body.sidenav-toggled {
     }
   }
   .navbar-sidenav {
-    overflow-x: hidden;
-
     width: $sidenav-collapsed-width;
     .nav-link-text {
       display: none;
@@ -37,6 +35,9 @@ body.sidenav-toggled {
       &:after {
         display: none;
       }
+    }
+    .nav-item {
+      white-space: nowrap;
     }
   }
   .navbar-sidenav-tooltip.show {
