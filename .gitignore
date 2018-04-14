@@ -1,1 +1,20 @@
-*lock.json
+# IDES
+/.idea/
+.vscode
+/nbproject/
+
+# Eclipse config files
+.project
+.settings
+.buildpath
+
+# External dependencies
+#/vendor/
+#/bower_components/
+#/node_modules/
+
+# Locked files
+.DS_Store
+*.cache
+*.lock
+*-lock.json
